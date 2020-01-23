@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.DeviceParametersActivity">
+
+    <item android:id="@+id/refresh_all"
+        android:icon="@drawable/refresh_all_white"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:title="@string/refresh_all" />
+
+    <item android:id="@+id/write_changes_button"
+        android:icon="@drawable/save_white"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:title="@string/write_changes" />
+
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/D0_checkbox"
+                android:text="@string/D0" android:paddingRight="35dp"/>
+            <CheckBox
+                android:id="@+id/D1_checkbox"
+                android:text="@string/D1"/>
+
+        </TableRow>
+        <TableRow>
+            <CheckBox
+                android:id="@+id/D2_checkbox"
+                android:text="@string/D2"/>
+            <CheckBox
+                android:id="@+id/D3_checkbox"
+                android:text="@string/D3"/>
+        </TableRow>
+        <TableRow>
+            <CheckBox
+                android:id="@+id/D4_checkbox"
+                android:text="@string/D4"/>
+            <CheckBox
+                android:id="@+id/D5_checkbox"
+                android:text="@string/D5"/>
+        </TableRow>
+        <TableRow>
+            <CheckBox
+                android:id="@+id/P0_checkbox"
+                android:text="@string/P0"/>
+            <CheckBox
+                android:id="@+id/P1_checkbox"
+                android:text="@string/P1"/>
+        </TableRow>
+        <TableRow>
+            <CheckBox
+                android:id="@+id/P2_checkbox"
+                android:text="@string/P2"/>
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
